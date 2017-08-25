@@ -49,6 +49,27 @@
 		    float: left;
 		    padding-left: 5px;
 		}
+
+		pre {
+		    background-color: #f8f8f8;
+		    border-left: 5px solid #ccc;
+		    color: #5d6a6a;
+		    font-size: 14px;
+		    line-height: 1.6;
+		    overflow: hidden;
+		    padding: 0.6em;
+		    position: relative;
+		    white-space: pre-wrap;
+		    word-break: break-word;
+		    word-wrap: break-word;
+		}
+
+		.w3-row h3 a {
+			text-decoration: none;
+		}
+		.w3-row h3 a:hover {
+			color :#4caf50;
+		}
 	</style>
 	<!-- 通过自有函数输出HTML头部信息 -->
     <?php $this->header(); ?>
